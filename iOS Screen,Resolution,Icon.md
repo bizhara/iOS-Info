@@ -1,5 +1,6 @@
 # iOS 画面，解像度，アイコン
 <br>
+
 ## 画面サイズ
 デバイス名|画面サイズ<br>(inch)|画素数<br>(w * h)|解像度<br>(ppi)
 :--|--:|--:|--:
@@ -15,6 +16,7 @@ iPad Air|9.7|1536 * 2048|264
 iPad mini|7.9|768 * 1024|163
 iPad mini Retina|7.9|1536 * 2048|326
 <br>
+
 ## 起動画面
 画像名|サイズ<br>(w * h)|対象デバイス名|備考
 :--|--:|:--|:--
@@ -29,8 +31,9 @@ Default-Portrait.png|768 * 1024|iPad / 2 / mini|
 Default-Landscape.png|1024 * 768|iPad / 2 / mini|
 Default-Portrait@2x.png|1536 * 2048|iPad Retina / Air / mini Retina|
 Default-Landscape@2x.png|2048 * 1536|iPad Retina / Air / mini Retina|
-※起動画面画像の管理には、Images.xcassets を使用するべき（ファイル名に縛られることが無くなる）
+* 起動画面画像の管理には、Images.xcassets を使用するべき（ファイル名に縛られることが無くなる）
 <br>
+
 ## アイコン
 種別|画像名|サイズ<br>(w * h (角R))||iPhone|||iPad||
 :--|:--|--:|:--:|:--:|:--:|:--:|:--:|:--:
@@ -53,4 +56,5 @@ Spotlight 検索結果アイコン|Icon-Small-40.png|40 * 40 (9)|||||◯|◯
  |Icon-Small-40@3x.png ?|120 * 120 (27)|||◯||||
  |Icon-Samll-50.png|50 * 50 (?)||||◯
  |Icon-Samll-50@2x.png|100 * 100 (?)||||◯
-※アイコン画像の管理には、Images.xcassets を使用するべき（ファイル名に縛られることが無くなる）
+* アイコン画像の管理には、Images.xcassets を使用するべき（ファイル名に縛られることが無くなる）
+* アイコンセットの生成に便利なサイト http://makeappicon.com/ 
