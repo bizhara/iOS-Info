@@ -57,4 +57,5 @@ Spotlight 検索結果アイコン|Icon-Small-40.png|40 * 40 (9)|||||◯|◯
  |Icon-Samll-50.png|50 * 50 (?)||||◯
  |Icon-Samll-50@2x.png|100 * 100 (?)||||◯
 * アイコン画像の管理には、Images.xcassets を使用するべき（ファイル名に縛られることが無くなる）
+* ただし、iTunesArtwork は、アプリアイコンのバリエーションとして認識されないので、別途 iTunesArtwork で登録する必要がある
 * アイコンセットの生成に便利なサイト http://makeappicon.com/ 
